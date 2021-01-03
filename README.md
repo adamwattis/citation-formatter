@@ -10,7 +10,7 @@ npm install citation-formatter
 ```
 Create a citation object to cite:
 ```javascript
-const myCitationObject = { authors: [{first: 'John', last: 'Doe'}], year: '2021', title: 'Title', publisher: 'Publisher', url: 'https://example.com/link-to-article'}
+const myCitationObjects = [{ authors: [{first: 'John', last: 'Doe'}], year: '2021', title: 'Title', publisher: 'Publisher', url: 'https://example.com/link-to-article'}]
 ```
 Which will have the following expected output in APA and MLA:
 > Doe, J. (2021). Title. Publisher. https://example.com/link-to-article

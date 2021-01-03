@@ -1,4 +1,6 @@
 # citation-formatter 📚
+![Tests](https://github.com/adamwattis/citation-formatter/workflows/Tests/badge.svg)
+
 A small JS module to create academic citations in APA and MLA format.
 * Supports APA and MLA
 * Small size (1.5kb)

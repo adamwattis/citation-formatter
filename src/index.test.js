@@ -115,5 +115,3 @@ describe('MLA formatter', () => {
     })
 })
 const myCitationObject = { authors: [{first: 'John', last: 'Doe'}], year: '2021', title: 'Title', publisher: 'Publisher', url: 'https://example.com/link-to-article'}
-console.log(APA(myCitationObject))
-console.log(MLA(myCitationObject))

@@ -1,0 +1,26 @@
+{
+  "name": "citation-formatter",
+  "version": "1.0.0",
+  "description": "Formats citation to APA, MLA formats.",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js"
+  ],
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest test"
+  },
+  "author": "Adam Wattis",
+  "license": "ISC",
+  "prepublish": "npm run build",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "jest": "^26.6.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
+}

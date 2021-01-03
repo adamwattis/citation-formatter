@@ -14,6 +14,7 @@ const myCitationObject = { authors: [{first: 'John', last: 'Doe'}], year: '2021'
 ```
 Which will have the following expected output in APA and MLA:
 > Doe, J. (2021). Title. Publisher. https://example.com/link-to-article
+
 > John Doe, et al. (2021). "Title." Publisher. https://example.com/link-to-article
 ### Factory function
 You can either import the CitationFormatter factory function to read citation objects with the `cite()` method, and use each format method to return formatted citations:

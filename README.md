@@ -42,6 +42,7 @@ const myMLACitations = MLA(myCitationObjects)
 | `title`    | String | Yes      |
 | `publisher`| String | Yes      |
 | `url`      | String | Yes      |
+
 `author` objects must have the following shape:
 | Field    | Type   | Required |
 | -------- | ------ | :------: |

@@ -48,6 +48,7 @@ const myMLACitations = MLA(myCitationObjects)
 | -------- | ------ | :------: |
 | `first`  | String | Yes      |
 | `last`   | String | Yes      |
+
 Example:
 ```javascript
 const myCitationObject = {
